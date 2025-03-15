@@ -1,0 +1,10 @@
+@media screen and (max-width: 1170px) {
+    .footer {
+        &_lists--wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 255px);
+            justify-content: center;
+            gap: 15px;
+        }
+    }
+}
